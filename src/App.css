@@ -1,0 +1,936 @@
+body {
+  background: url(./bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(255 255 255) ;
+  /*font-family: Inter,sans-serif;*/
+  overflow-x: hidden;
+  font-family: SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+#root {
+  height: 100%;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}
+.css-hyum1k-MuiToolbar-root{
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+}
+.innernav{
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+.mr1{
+  margin-right: 1rem !important;
+}
+.nav-items{
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+}
+
+.css-1fn6sd1 {
+  font-size: 1.8rem !important;
+  font-weight: 400 !important;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  line-height: 65px !important;
+  position: relative !important;
+  color: rgb(16, 16, 16) !important;
+  white-space: nowrap !important;
+}
+.d-flex {
+  display: flex!important;
+}
+.connect-btn {
+  transition: all .3s ease-in-out;
+}
+.connect-btn {
+  border: 1px solid #498ff8 !important;
+  border-radius: 12px !important;
+  color: #fff;
+  height: 46px !important;
+  padding: 0 0 0 20px !important;
+  display: flex;
+}
+
+.connect {
+  align-items: center !important;
+  background: transparent !important;
+  border-right: 0 !important;
+  color: #498ff8 !important;
+  display: inline-flex !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  justify-content: center !important;
+  padding-right: 10px !important;
+}
+
+.arrow {
+  align-items: center !important;
+  background: #498ff8 !important;
+  border-radius: 12px !important;
+  border-right: 0 !important;
+  display: inline-flex !important;
+  height: 100% !important;
+  justify-content: center !important;
+  padding: 0 14px !important;
+  transition: all .3s ease-in-out !important;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+.mobile{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.css-xi606m{
+  padding-top: 1rem;
+}
+
+.pt6{
+  padding-top: 3.5rem;
+}
+
+.css-h4y409-MuiList-root{
+  text-align: left !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+  background-color: #fff7f2 !important;
+}
+
+.mb2{
+  margin-bottom: 2rem !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  align-items: center!important;
+  justify-content: center!important;
+  text-align: center;
+}
+
+.along{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fs-12 {
+  font-size: 12px!important;
+  color: #6d6c69 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    margin-bottom: 0 !important;
+}
+
+.fss{
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 70px!important;
+  line-height: normal;
+  margin-top: 2rem;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+  text-align: center;
+}
+.fss1{
+  background: #f3d7ba;
+  border-radius: 15px;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+
+.token-img {
+  margin: 0 auto;
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 3rem!important;
+  margin-top: 1.5rem!important;
+}
+
+.css-19kzrtu {
+  width: 100%;
+}
+
+.token-img img {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.fixed{
+  position: fixed;
+}
+.jcenter{
+  justify-content: center;
+}
+.none{
+  display: none !important;
+}
+
+.coming img{
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.coming{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.along span{
+  color: inherit !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  margin-bottom: 0 !important;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.profile-img img{
+  width: 100%;
+  border-radius: 20px;
+  height: 4.5rem;
+}
+.mr1 img{
+  width: 100%;
+}
+.scrollicon{
+  display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.css-19kzrtu {
+  padding: 14px !important;
+}
+.tabs{
+  width: 100%;
+}
+.mobile img{
+  width: 90%;
+}
+.scrollimg img{
+  border-radius: 10px;
+  width: 100%;
+  height: 90%;
+}
+.scrollitem{
+  display: flex !important;
+}
+.mtp2{
+  margin-top: 2rem;
+}
+.scroll-header{
+  display: flex;
+    width: 100%;
+}
+.Chad{
+  margin-top: 2rem;
+}
+.jus{
+  justify-content: center;
+}
+.chadtitle{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+}
+
+.chadtitle p{
+  font-size: 2rem;
+}
+
+.chadselect{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.9rem;
+}
+.chadselect p{
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+.css-ece9u5{
+  width: 80%;
+}
+.chadinput{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.chadfeed p{
+  font-size: 1.6rem;
+}
+.chadfeed{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 100%;
+}
+.chadinput button{
+  width: 50%;
+  margin-bottom: 2rem;
+  margin-top: 0.8rem;
+}
+.pun{
+  margin-bottom: 0.7rem !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+.none{
+  display: none;
+}
+.mgbet{
+  margin-right: 2rem;
+}
+.scroll1{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t1{
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+}
+.t2{
+  background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    border: 1px solid #ddd !important;
+}
+.innercard{
+  padding: 1.3rem !important;
+}
+.t3{
+  margin-bottom: 0.5rem !important;
+    font-size: 1.05rem !important;
+}
+.tokenprice{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: 1px solid #ddd !important;
+  border-radius: 10px !important;
+  padding: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.tokenprice p{
+  font-size: 1.05rem !important;
+    font-weight: 500 !important;
+}
+.selectto{
+  display: flex !important;
+  width: 100% !important;
+  justify-content: space-between !important;
+  margin-bottom: 1.5rem !important;
+}
+.t4{ 
+  width: 100% !important;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  font-weight: 600 !important;
+}
+.t5{
+  margin-top: 1rem !important;
+  font-size: 0.8rem !important;
+}
+.t6{
+  border-radius: 20px !important;
+    padding: 10px 30px !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    background: #ddd !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+}
+.imputu{
+  display: flex;
+  justify-content: end;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.imputu p{
+  font-size: 1.1rem !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  line-height: 2rem !important;
+}
+.t8{
+  margin-bottom: 1rem !important;
+}
+.f1{
+  font-size: 1.2rem !important;
+  line-height: 1.2rem !important;
+  margin: 0 !important;
+}
+.tc{
+  width: 30%;
+}
+.ri{
+  margin-right: 1rem !important;
+}
+.ref2{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.tp{
+  width: 75%;
+}
+.linlbox{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+.t9{
+  font-size: 0.9rem !important;
+}
+.reftext{
+  margin-top: 1rem;
+}
+.t11{
+  font-size: 0.9rem !important;
+}
+.tf{
+  width: 40%;
+}
+.t12{
+  font-size: 2rem !important;
+}
+.refitems{
+  display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem !important;
+    margin-top: 0.4rem;
+}
+.availbuttom img{
+  width: 3rem;
+}
+.stakeheader{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.stake3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.stakebottom{
+  margin-top: 2rem;
+    width: 60%;
+}
+.stside{
+  display: flex;
+    justify-content: space-between;
+}
+.tot{
+  font-size: 2rem !important;
+}
+.tit{
+  font-size: 0.8rem !important;
+}
+.st2{
+  width: 35%;
+}
+.fi{
+  margin-bottom: 0.5rem;
+}
+.fu{
+  font-weight: 600 !important;
+}
+.eri{
+  display: flex;
+}
+.tliq{
+  border: 1px solid #ddd !important;
+    border-radius: 10px;
+    display: flex;
+    padding: 1rem;
+    align-self: center;
+    margin-right: 1rem;
+}
+.tprice{
+  border-radius: 10px;
+  display: flex;
+  border: 1px solid #ccc;
+  align-self: center;
+  padding: 1rem;
+  line-height: 1rem;
+}
+.css-ece9u5{
+  width: 100%;
+    margin-bottom: 2rem;
+}
+.mu{margin-right: 1rem !important;}
+.mu1{
+  width: 33%;
+}
+.mu2{
+  width: 28%;
+}
+.mu3{
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.mu4{ 
+  margin-bottom: 1rem !important;
+}
+.availbuttom{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.mu5{
+  font-size: 0.9rem !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  margin-bottom: 1rem;
+}
+.riv{
+  font-size: 1.5rem !important;
+}
+.pair a {
+  text-decoration: none;
+}
+.fot{
+  margin-top: 1rem !important;
+  font-size: 0.8rem !important;
+}
+.lu1{
+  width: 70% !important;
+}
+.nim1{
+  position: fixed;
+  bottom: 0;
+  width: 88%;
+}
+.nim1 p{
+  padding: 1rem 0rem;
+  font-size: 0.9rem !important;
+}
+.join-btn{
+  background: #f3d7ba !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  border-radius: 15px !important;
+  padding: 10px 20px !important;
+  white-space: nowrap !important;
+  box-shadow: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  margin-top: 2rem !important;
+  text-transform: none !important;
+}
+.lu2{
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+.lu2 img{
+  width: 60% !important;
+}
+.mobnav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mobnav-flex{
+  display: flex;
+  padding: 1rem;
+}
+.mobnav-item{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mobnav-item a{
+  margin: 0;
+}
+.scrolltrue .css-19kzrtu{
+  padding: 0 !important;
+}
+.essential{
+  display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.essential p{
+  margin: 0;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+}
+.scrollitem{
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.scrollimg{
+  width: 25%;
+    display: flex;
+    align-items: center;
+}
+.scrollbody{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem !important;
+  align-items: baseline;
+}
+.font0{
+  font-size: 0.8rem !important;
+}
+.profile-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.profile-img{
+  width: 30%;
+}
+.profile-body{
+  border-radius: 10px;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.creator{
+  padding: 0.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: none !important;
+    align-items: center;
+}
+.nameless{
+  box-shadow: none !important;
+}
+.walletup{
+  border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.fullic{
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+}
+.ichead{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ictext{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ictext1{
+  display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.ictext2{
+  justify-content: start;
+}
+.nudu{
+  width: 22%;
+}
+.vutu{
+  margin: 0;
+}
+.icon23{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hold1{
+  box-shadow: none !important;
+}
+.points{
+  margin-bottom: 1rem;
+}
+.points1{
+  justify-content: space-between;
+    box-shadow: none;
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    box-shadow: none !important;
+}
+.holding{
+  margin-bottom: 1rem;
+}
+.wallet{
+  margin-bottom: 1rem;
+}
+.dividends{
+  padding: 0.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: none !important;
+    align-items: center;
+}
+.earnings{
+  width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+.nub{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mtop{
+  margin-top: 2rem;
+}
+.scrollvolume{
+  width: 20%;
+    display: flex;
+    align-items: center;
+}
+.profile-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 42%;
+}
+.menu{
+  width: 15%;
+    display: flex;
+    align-items: baseline;
+}
+.profile-sub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg{
+  background: rgba(0,0,0,.3);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.bg2{
+  background: rgba(0, 0, 0, 0.9);
+  color: rgb(255 255 255) !important;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.t8 label{
+  color: rgb(255 255 255) !important;
+}
+.t8 .MuiInputBase-formControl .css-9ddj71 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  color: rgb(255 255 255) !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  color: rgb(255 255 255) !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border:rgb(255 255 255) !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  border:rgb(255 255 255) !important;
+}
+.t100{
+  border-radius: 10px !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.t120{
+  margin: 0;
+}
+.mtp2{
+  margin-top: 4rem !important;
+}
+.exchange{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem !important;
+}
+.t240{
+  margin-bottom: 1rem !important;
+}
+.exchange a{
+  margin: 0;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  border: 1px solid #fff;
+}
+.bg-text{
+  font-size: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.t200{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.genesis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 860px){
+  .mr1, .nav-items, .innernav{
+    display: none;
+  }
+  .ref2{
+    flex-wrap: wrap;
+  }
+  .tp{
+    width: 100% !important;
+  }
+  .tf{
+    width: 100% !important;
+  }
+  .css-hyum1k-MuiToolbar-root{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .fss{
+    font-size: 30px !important;
+    line-height: 52px!important;
+  }
+  .mtc{
+    margin-top: 15vh !important;
+  }
+  .mr2 img{
+    width: 12rem;
+  }
+  .tp{
+    width: 100% !important;
+  }
+  .tf{
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+  .tliq{
+    margin-right: 0rem !important;
+    margin-bottom: 1rem;
+  }
+  .stakeheader, .stake3, .stakebottom, .stside, .eri{
+    flex-wrap: wrap;
+  }
+  .mo1, .mu1{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .fo, .tliq, .tprice, .tc, .stakebottom, .st2, .st1, .mul1{
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 912px){
+.d-lg-block {
+    display: flex!important;
+}
+.container, .container-lg, .container-md, .container-sm {
+  max-width: 950px;
+}
+.mobile{
+  display: none;
+}
+.fs-12{
+  font-size: 20px !important;
+}
+.fss{
+  line-height: 1.167 !important;
+}
+.along span{
+  font-size: 1.2rem !important;
+  line-height: 2rem !important;
+}
+.token-img{
+  margin-top: 3rem !important;
+}
+.mtc{
+  margin-top: 8vh !important;
+}
+.coming img{
+  width: 65%;
+  margin-bottom: 2vh;
+}
+.mr1 img{
+  width: 10rem !important;
+}
+.alcenter{
+  align-items: center;
+}
+.tp{
+  width: 67% !important;
+}
+.tf{
+  width: 28% !important;
+}
+}
