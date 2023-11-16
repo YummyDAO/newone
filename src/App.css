@@ -839,6 +839,15 @@ img, svg {
   align-items: center;
   justify-content: center;
 }
+.css-5poeop{
+  background: transparent !important;
+    box-shadow: none !important;
+}
+.css-1v4ccyo{
+  color: #fff !important;
+  border:1px solid #fff !important;
+  border-radius: 10px !important;
+}
 @media (max-width: 860px){
   .mr1, .nav-items, .innernav{
     display: none;
