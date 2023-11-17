@@ -222,7 +222,7 @@ function DrawerAppBar(props) {
                 <Typography >DOCS</Typography>
               </Link>
             </div>
-            { currentAccount ? <Button variant="contained" className='t100 mu' onClick={Mint}>Mint</Button> : <Button variant="contained" className='t100 mu' onClick={connectWallet}>Connect Wallet</Button>}
+            { currentAccount ? <span className="connect">{currentAccount.slice(0, 6)}...{currentAccount.slice(-4)}</span> : <span> Connect Wallet </span> }
           </div>
             
           {/*<Box sx={{ display: { xs: 'none', sm: 'block' } }}>
